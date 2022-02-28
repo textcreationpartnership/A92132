@@ -1,0 +1,330 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached at the assizes in Thetford in the county of Norfolk the 15th day of March 1692/3 by J.R. ... ; published at the special instance and command of the judges.</title>
+            <author>J. R.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1693</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 52 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A92132</idno>
+            <idno type="STC">Wing R2343A</idno>
+            <idno type="STC">ESTC R42572</idno>
+            <idno type="EEBO-CITATION">36282353</idno>
+            <idno type="OCLC">ocm 36282353</idno>
+            <idno type="VID">150246</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A92132)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 150246)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2237:19)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached at the assizes in Thetford in the county of Norfolk the 15th day of March 1692/3 by J.R. ... ; published at the special instance and command of the judges.</title>
+                  <author>J. R.</author>
+               </titleStmt>
+               <extent>[4], 27 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by John Hayes, Printer to the University, for Samuel Oliver, Bookseller in Norwich,</publisher>
+                  <pubPlace>Cambridge :</pubPlace>
+                  <date>1693.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Lambeth Palace Library (London, England).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Corinthians, 1st, X, 10 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+               <term>Assize sermons --  England.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:150246:1" rendition="simple:additions"/>
+            <p>A SERMON Preached at the ASSIZES at THETFORD IN THE County of <hi>NORFOLK</hi> the <hi>15<hi rend="sup">th</hi>
+               </hi> Day of <hi>March 1692/3.</hi>
+            </p>
+            <p>By <hi>J. R.</hi> M. A. Rector of <hi>Brundal</hi> in <hi>Norfolk.</hi>
+            </p>
+            <p>Publiſhed at the Special Inſtance and Command of the <hi>JUDGES.</hi>
+            </p>
+            <p>
+               <hi>CAMBRIDGE,</hi> Printed by <hi>John Hayes,</hi> Printer to the Univerſity, for <hi>Samuel Oliver</hi> Bookſeller in <hi>Norwich.</hi> 1693.</p>
+         </div>
+         <div type="imprimatur">
+            <pb facs="tcp:150246:2"/>
+            <opener>
+               <dateline>
+                  <date>Aprilis 6. 1693.</date>
+               </dateline>
+            </opener>
+            <p>Imprimatur,</p>
+            <closer>
+               <signed>
+                  <list>
+                     <item>Geor. Oxenden, <hi>Procan.</hi>
+                     </item>
+                     <item>Joh. Spencer.</item>
+                     <item>Nath. Coga.</item>
+                     <item>Ja. Johnſon.</item>
+                  </list>
+               </signed>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:150246:2"/>
+            <head>TO The Right Honourable Sr. JOHN HOLT Kt. <hi>Lord Chief Juſtice of</hi> ENGLAND, AND One of <hi>Their Majeſties</hi> Moſt Ho<g ref="char:EOLhyphen"/>nourable Privy Council. And to the Honourable Sr. THOMAS ROKEBY Kt. One of <hi>Their Majeſties</hi> Juſtices of <hi>Their Majeſties</hi> Court of <hi>Common Pleas.</hi>
+            </head>
+            <opener>
+               <salute>My Lords,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg> Thought it ſo very incon<g ref="char:EOLhyphen"/>gruous for one in my humble Station to offer any thing to the World, that indeed nothing but the Com<g ref="char:EOLhyphen"/>mand of your Lordſhips could have obliged
+<pb facs="tcp:150246:3"/>
+me to publiſh the mean Diſcourſe I pre<g ref="char:EOLhyphen"/>ſumed to preach before You. But ſince You were pleaſed to give me leave to pre<g ref="char:EOLhyphen"/>fix your Great Names to it, I humbly Preſent it to You again, aſſuring my ſelf, that by that Means it will be the more likely to promote the Deſign I had in Preaching it, and which I believe You had in Commanding it to be Printed: Which if it may in any meaſure obtain, I preſume to ſay I ſhall ſo far be a Bene<g ref="char:EOLhyphen"/>factor to my Country and to the Church of God, and be always Thankfull to Your Lordſhips for giving me the Ad<g ref="char:EOLhyphen"/>vantage of being ſo; ever remaining</p>
+            <closer>
+               <salute>My Lords,</salute>
+               <signed>Your moſt Obedient Servant <hi>John Ruſſell.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:150246:3"/>
+            <head>
+               <q>
+                  <bibl>I Corinth. X. 10.</bibl>
+                  <p>Neither Murmur ye, as ſome of them alſo mur<g ref="char:EOLhyphen"/>mured, and were deſtroyed of the Deſtroyer.</p>
+               </q>
+            </head>
+            <p>
+               <seg rend="decorInit">W</seg>E have a great deal of reaſon to be<g ref="char:EOLhyphen"/>lieve, that Wiſdom and Goodneſs is the conſtant rule of Providence in ordering the Affairs of the World; But yet it often happens that we do not perceive that Wiſdom, nor reſent that Good<g ref="char:EOLhyphen"/>neſs well; for the Truth is, we are too ſhort-ſight<g ref="char:EOLhyphen"/>ed to ſee the bottom of the Counſels of God, and there is ſo great a variety and contrariety of Hu<g ref="char:EOLhyphen"/>mours and Intereſts in the World, that the moſt be<g ref="char:EOLhyphen"/>nign Diſpenſations, are neceſſarily croſs to ſome: But yet it is very reaſonable that God ſhould rule the World; and unleſs Men will learn to ſubmit to his Will, a great many are like to be very unea<g ref="char:EOLhyphen"/>ſie and troubleſome in it.</p>
+            <p>But to prevent this, that Great Lover of Man<g ref="char:EOLhyphen"/>kind, who left no way unattempted to do us good, hath by his own Example recommended to us, the Duty of Reſignation, and the prudence of a Patient conduct in all things: And his Holy Religion hath ſomething peculiar in it, to promote ſuch Temper in Men, as may create no Diſturbance in the World, but yield glory to God, and eaſe to themſelves,
+<pb n="2" facs="tcp:150246:4"/>
+under all the Viciſſitudes of that which we call For<g ref="char:EOLhyphen"/>tune. And herein we have very little reaſon to ſuſpect him of ſo unkind a Deſign, as to diſpirit Men, and make them content to be Miſerable; for he propounds the moſt rational means for Redreſs, under real Afflictions, and that is, to apply them<g ref="char:EOLhyphen"/>ſelves to him who hath the management of all things in his own hand,<note place="margin">Phil. 4.6.</note> and <hi>by prayer and ſupplica<g ref="char:EOLhyphen"/>tion to make known their Requeſts unto God:</hi> But then, on the other ſide, he hath too great a ſenſe of his own, and his Fathers Honour, to countenance quar<g ref="char:EOLhyphen"/>relling at the order of Heaven, and eſpecially in e<g ref="char:EOLhyphen"/>vident deſigns of Mercy and Goodneſs, although they do not juſt ſute their Intereſts or Wiſhes. And as in ſuch caſes, there is ſomething in men that will not ſuffer them to make their complaints unto God, ſo there is alſo ſomething that will be exciting diſ<g ref="char:EOLhyphen"/>content; and if not ſuppreſt, will ferment and ſoure their Minds, till it break out into open Diſguſts, and diſhonourable and unworthy Reflections.</p>
+            <p>But then as Almighty God is not ſo much con<g ref="char:EOLhyphen"/>cern'd, in ſuch caſes to grant redreſs, as he is to obſerve and reſent the affront to his Wiſdom and Goodneſs; ſo when ſuch unreaſonable Diſcontents, do break out into expreſſions of Contempt, it ſeems both ne<g ref="char:EOLhyphen"/>ceſſary and juſt that he ſhould ſhew his Diſpleaſure upon ſuch great Provocations: And ſome very re<g ref="char:EOLhyphen"/>markable Inſtances we have of theſe things in the Children of <hi>Iſrael,</hi> which our Apoſtle refers to in the Text;<note place="margin">Exod. 2.23, 24, 25.</note> when they <hi>ſighed by reaſon of their Bondage, and cried, their cry came up unto God; and God heard their groaning; and God looked upon the Chil<g ref="char:EOLhyphen"/>dren of Iſrael and had reſpect unto them.</hi> But when Heaven by miracles had reſcued them out of it, a
+<pb n="3" facs="tcp:150246:4"/>
+little unavoidable trouble ſet them a murmuring, it was taken as a great Affront: When they, weary and glutted with <hi>Manna and Quails,</hi> were ſo diſta<g ref="char:EOLhyphen"/>ſted at the bounty of God, that they could not but ſit down and ſigh for their <hi>Garlick and Onions</hi> a<g ref="char:EOLhyphen"/>gain: When they grew weary of their Deliverance,<note place="margin">Exod. 11.5.</note> and out of a peeviſh and unreaſonable diſtaſte at the Inſtruments of it, and becauſe of ſome tolerable dif<g ref="char:EOLhyphen"/>ficulties, they groaned to be in <hi>Egypt</hi> again, it was eſteemed too great an Offence to be paſſed by, without ſome extraordinary Judgments.</p>
+            <p>Theſe things our Apoſtle obſerves to the <hi>Corin<g ref="char:EOLhyphen"/>thians, were written for the admonition of others:</hi>
+               <note place="margin">Ver. 11.</note> And therefore among other things, (well knowing the moſt likely conſequences of ſuch practices) he gives them that friendly Caution in the Text, <hi>Neither murmur ye,</hi> &amp;c.</p>
+            <p>In Diſcourſing whereof I ſhall
+<list>
+                  <item>I. Firſt, enquire what the Apoſtle cautioneth againſt;</item>
+                  <item>II. Secondly, ſhew how little reaſon any have to admit ſuch things into Practice;</item>
+                  <item>III. Thirdly, ſhew how likely they are, if ad<g ref="char:EOLhyphen"/>mitted, to produce ſuch Effect as is here pointed at; and</item>
+                  <item>IV. Laſtly, make ſome improvement of All.</item>
+               </list>
+            </p>
+            <p>Now that which the Apoſtle cautioneth againſt is, <hi>Murmuring;</hi> the <hi>Murmuring</hi> he intends, is ſuch as <hi>the Children of Iſrael</hi> were guilty of <hi>in the Wil<g ref="char:EOLhyphen"/>derneſs;</hi> And the effect it had, was <hi>Deſtruction;</hi> which I hope will give me the Advantage of ma<g ref="char:EOLhyphen"/>king a good Improvement of the matter.</p>
+            <pb n="4" facs="tcp:150246:5"/>
+            <p n="1">I. Firſt, That which the Apoſtle gives caution againſt in the Text, is <hi>Murmuring;</hi> which ſeems to be in general a Diſcontent at the Diſpenſations of Providence, and a Quarrelling at what happens to come to paſs in the World: This I ſay, is in general, but the Apoſtle in this place ſeems to re<g ref="char:EOLhyphen"/>ferr particularly, to thoſe Murmurings of the Chil<g ref="char:EOLhyphen"/>dren of <hi>Iſrael,</hi> which brought ſuch grievous deſtru<g ref="char:EOLhyphen"/>ction upon them in the Wilderneſs; And there<g ref="char:EOLhyphen"/>fore, in order to a juſt Information, we muſt a little look into the Hiſtory of that People, during their continuance therein: And that we may the more plainly ſee the ill nature of the Offence, we will briefly take notice by the way, of the ſtate of that People, becauſe indeed it was the Circumſtances that did ſo highly aggravate their Sin.</p>
+            <p>Now you muſt know the Children of <hi>Iſrael,</hi> e<g ref="char:EOLhyphen"/>ven the whole Stock of them, were Strangers and Bondſlaves in <hi>Egypt,</hi> where they continued Four hun<g ref="char:EOLhyphen"/>dred and thirty Years, and for a great part of that time, but eſpecially toward the laſt, they were ve<g ref="char:EOLhyphen"/>ry grievouſly oppreſſed;<note place="margin">Exod. 1.13, 14.</note> for ſays <hi>Moſes, The Egyp<g ref="char:EOLhyphen"/>tians made the Children of Iſrael to ſerve with ri<g ref="char:EOLhyphen"/>gour, and made their lives bitter with hard bondage; and all the ſervice, wherein they made them to ſerve, was with rigour.</hi> And this was not all, but there was beſides, a Deſign on foot, to extinguiſh the Whole Race of them; for to that end there was an Edict paſt at <hi>Pharaoh's</hi> Court,<note place="margin">Exod. 1.16.</note> that every Man-child of theirs ſhould be murdered, as ſoon as it was born: So that their Condition was truly deplora<g ref="char:EOLhyphen"/>ble, and ſo deſperate, that a Deliverance upon any Terms, could not but be a moſt welcome Bleſſing, and an unviolable Obligation of Love and Thanks
+<pb n="5" facs="tcp:150246:5"/>
+both to the Author and inſtruments of ſo great a Mercy; as alſo of the humbleſt ſubmiſſion, to the methods of accompliſhing it, thô not in every point ſo eaſie as might be wiſhed.</p>
+            <p>In that moſt ſeaſonable time, God heard their Cry, and delivered them, and not onely ſo, but al<g ref="char:EOLhyphen"/>ſo gave them an Aſſurance of one of the richeſt and moſt fertile Countries in the World,<note place="margin">Exod. 3.17.</note> the land of <hi>Canaan, a Land flowing with Milk and Honey;</hi> It ſhould be theirs, and their Childrens after them, there they ſhould dwell,<note place="margin">Exod. 29.45.</note> and God would dwell a<g ref="char:EOLhyphen"/>mong them, they ſhould be his People, and he their God.</p>
+            <p>This was ſo great a Deliverance and Favour, that the Remembrance of it, ought for ever to have ſti<g ref="char:EOLhyphen"/>fled the reſentment of little Troubles, and ſweetned their Minds into the moſt obliging cheerfull Tem<g ref="char:EOLhyphen"/>per; But yet in the midſt of theſe Circumſtances, we find them Murmuring; And</p>
+            <p>Firſt upon the account of the Water at <hi>Marah,</hi> becauſe it was bitter:<note place="margin">Exod. 15.24.</note> 
+               <hi>The People murmured againſt Moſes ſaying what ſhall we drink?</hi> Water they had enough; and yet they cry out, O what ſhall they drink? They had forgot that <hi>their Lives were bit<g ref="char:EOLhyphen"/>ter</hi> but a little before, <hi>with hard Bondage,</hi> and now they ſtomack the Bitterneſs of the Water, as a moſt grievous thing, that they hardly knew how to forgive <hi>Moſes</hi> for it, thô, God knows, it was none of his Fault. Next we have them murmuring for want of Bread:<note place="margin">Exod. 16.2, 3.</note> 
+               <hi>The whole Congregation of the Chil<g ref="char:EOLhyphen"/>dren of Iſrael murmured against Moſes and Aaron, and ſaid unto them, Would to God we had died by the hand of the Lord in the Land of Egypt, when we ſate by the Fleſhpots, and when we did eat Bread to
+<pb n="6" facs="tcp:150246:6"/>
+the full; for ye have brought us forth into this Wil<g ref="char:EOLhyphen"/>derneſs,</hi>
+               <note place="margin">Exod. 17.2.</note> 
+               <hi>to kill this whole Aſſembly with Hunger.</hi> We find them alſo Murmuring for want of Water at <hi>Rephidim,</hi> and chiding with <hi>Moſes,</hi> and wiſhing, Would to God they had died with their Brethren of the Plague.<note place="margin">Numb. 20.4. <hi>compared with</hi> 11.33.</note> But yet thô their Diſguſts were riſen very high, yet God had Compaſſion on their infirmities; here was Want of Bread and Water, the neceſſary Supports of Life; Hunger is ſharp, and Thirſt intolerable, and thoſe Diſcontents that aroſe from thence met with Pardon and Pitty; for God gave them Bread to the full, and Water in abundance; here is no Deſtruction for this, and we are not yet come to the Murmuring the Text ſeems moſt expreſly to relate to.</p>
+            <p>Further therefore they murmured plainly at what God had done for them in Delivering them <hi>out of the land of Egypt, out of the houſe of Bondage;</hi> and moſt unaccountably wiſh'd for <hi>Egypt</hi> again, for their old Slavery, out of which the Mercy of Heaven had delivered them by Miracles: And the occaſion was this; the Spies that went to ſearch out the Land, gave a very bad and falſe Account of it;<note place="margin">Numb. 13.</note> they whiſ<g ref="char:EOLhyphen"/>pered ſtrange things into the Peoples ears, as if the Land they were going to, did ſtarve or <hi>eat up its own Inhabitants,</hi> and yet that at the ſame time, there was abundance of <hi>Giants</hi> in it, Men of ſuch great Growth, that they were but as <hi>Graſhoppers</hi> in compariſon of them. And thô theſe Stories did not hang together at all, yet that Diſcontented Peo<g ref="char:EOLhyphen"/>ple took the opportunity of Murmuring again, <hi>Would to God they had died in the Land of Egypt,</hi>
+               <note place="margin">Numb. 14.2, 3, 4.</note> 
+               <hi>or in the Wilderneſs; And why (ſay they) hath the Lord brought us into this Land, to fall by the Sword,
+<pb n="7" facs="tcp:150246:6"/>
+that our Wives and Children ſhould become a Prey to the Giants? Were it not better to return into E<g ref="char:EOLhyphen"/>gypt? And they began to ſay to one another, Let us make a Captain, and let us return into Egypt.</hi>
+            </p>
+            <p>This ſeems to be ſome of the Murmuring pointed at in the Text; for at the time of the Writing of this Epiſtle, the progreſs of the Chriſtian Faith was retarded, by the practice of ſome buſie Hereticks, who had brought up an ill Report of it, which made a great many begin to think, they were as well before; and therefore ſome were for Judaiſm again, and others for the old Gentile Courſes, from whence the bleſſed Conduct of the Goſpel had de<g ref="char:EOLhyphen"/>livered them: And we are ſure, that for this Mur<g ref="char:EOLhyphen"/>muring, the <hi>Iſraelites</hi> ſmarted much; being not only kept Fourty years from a ſettlement in their land, but alſo, all that Generation diſinherited and deſtroyed, as I ſhall have occaſion further to ſhew.</p>
+            <p>Further, there was a murmuring upon the ac<g ref="char:EOLhyphen"/>count of the Rulers God had ſet over them, even againſt thoſe very Inſtruments God had raiſed up to deliver them out of <hi>Egypt,</hi> and to ſettle them in their own land: For <hi>Corah</hi> and his company <hi>ga<g ref="char:EOLhyphen"/>thered themſelves together,</hi> and very malepertly tell <hi>Moſes</hi> and <hi>Aaron,</hi> they took too much upon them; and ſay they (when they knew that nothing but the hand and power of God, could put them into thoſe poſts) <hi>Wherefore lift ye up your ſelves above the Congregation of the Lord?</hi>
+               <note place="margin">Numb. 16.3.</note> And when God himſelf had aſſerted their Miſſion and Authority, by a miraculous deſtruction of ſome, (in proſecution of the vengeance he was inflicting, for their diſſatisfa<g ref="char:EOLhyphen"/>ction at their deliverance out of <hi>Egypt,</hi> and for their deſire to return) others fell a Murmuring in a
+<pb n="8" facs="tcp:150246:7"/>
+more impudent manner, and moſt ſlanderouſly tell them,<note place="margin">Numb. 16.41.</note> They had <hi>killed the people of the Lord.</hi>
+            </p>
+            <p>This ſeems to be a ſecond Murmuring pointed at in the Text; Firſt, becauſe theſe Murmurers were deſtroyed,<note place="margin">Numb. 16.35, 49.</note> 
+               <hi>viz.</hi> by <hi>the fire of the Lord,</hi> and by <hi>the plague;</hi> and further, becauſe, that by reaſon of the Schiſms that were then in that Church, there were great Commotions againſt their preſent Governours.</p>
+            <p>In the laſt place, they Murmured at the unavoid<g ref="char:EOLhyphen"/>able Difficulties and Inconveniencies they met with in their way to the Promiſed land; and particularly, after they had overcome the <hi>Canaanites</hi> at <hi>Hormah, The ſoul of the people was much diſcouraged becauſe of the way;</hi>
+               <note place="margin">Numb. 21.4.</note> and inſtead of the more proper method of Patience and Prayer, <hi>The people ſpake againſt God,</hi>
+               <note place="margin">Numb. 21.5.</note> 
+               <hi>and againſt Moſes, Wherefore have ye brought us up out of Egypt to die in the wilderneſs; for there is no bread, neither is there any water.</hi> Now indeed, it is very probable, the way was not ſo pleaſant, as they would have had it, and how could it be otherwiſe, it was a Wilderneſs, and they muſt now march through it, if ever they would get to <hi>Canaan;</hi> and as for their other Complaint, that was more perverſe and unaccountable; for they eat <hi>An<g ref="char:EOLhyphen"/>gels food,</hi> and as it is ſaid, the water out of the Rock followed their Camp, but yet (to ſee what perverſeneſs and diſcontent will prompt men to ſpeak, even againſt all Truth and Modeſty) they cry out they have neither bread nor water: but to ſay the Truth, they were grown Effeminate and Nice, and luſted for fleſh, which as the <hi>Pſalmiſt</hi> interprets it, was for <hi>meat for their luſts;</hi>
+               <note place="margin">Pſal. 78.18.</note> and that was indeed the true cauſe of their Murmuring; for being grown ſo exorbitant and ungovernable in their Appetites,
+<pb n="9" facs="tcp:150246:7"/>
+they knew not how to bear the Fatigue of the Jour<g ref="char:EOLhyphen"/>ney, but murmured at the neceſſary and unavoidable Troubles they met with, altho' it was from a wea<g ref="char:EOLhyphen"/>riſome <hi>Bondage in Egypt, to a Land flowing with Milk and Honey,</hi> and in order to their Settlement and E<g ref="char:EOLhyphen"/>ſtabliſhment therein.</p>
+            <p>And this ſeems alſo ſome of the Murmuring the Apoſtle refers to in the Text; for there were at that time moſt pernicious Hereticks in the Church, that piqu'd againſt the Severities that Chriſtianity expoſed its Profeſſors to; for finding fault with the Hardſhip of Perſecution, Self-denyal and Mortification, they were clearly for Indulgence and an eaſie Life, as if God were too ſevere to put ſuch things upon Men, tho' it were in the way to everlaſting Bleſſedneſs; And we find alſo that this brought Deſtruction up<g ref="char:EOLhyphen"/>on the Children of <hi>Iſrael,</hi> and a very Remarkable Vengeance, <hi>whereby much People died.</hi>
+               <note place="margin">Numb. 21.6.</note>
+            </p>
+            <p>Theſe are the Murmurings which we may well ſup<g ref="char:EOLhyphen"/>poſe the Apoſtle intends and cautions againſt; they being thoſe the <hi>Iſraelites</hi> were guilty of, and for which ſo many of them met with Deſtruction in the Wilderneſs; and ſuch as there was great Cauſe the <hi>Corinthians</hi> ſhould then be expreſly warn'd of. My next work, is to ſhew how great Reaſon there is that none ſuch be admitted into Practice, eſpecial<g ref="char:EOLhyphen"/>ly among Chriſtians.</p>
+            <p n="2">II. The more gracious Diſpenſation we are under, does not give us the greater Liberty to pique at Providence, or capitulate with Heaven; we have no Toleration to be Humourſome or Froward, tho' things do not juſt jump with our Intereſts or Wiſh<g ref="char:EOLhyphen"/>es; But when we fall into Circumſtances in any
+<pb n="10" facs="tcp:150246:8"/>
+thing like thoſe of the <hi>Jews</hi> under our preſent Con<g ref="char:EOLhyphen"/>ſideration; As they had the leaſt Reaſon in the World to reſent things as they did, ſo have we: And this will be eaſily diſcern'd by a bare Stating of the Caſe in the forementioned Reſpects.</p>
+            <p>Firſt, Suppoſe the Good-will and Pity of Heaven (in compaſſion to any Diſtreſſed Church or People, groaning under Oppreſſion and Fears) ſhould, by ſome Surprizing Providence, deliver them, and put them into a hopefull proſpect of being yet Happy, of a Secure Enjoyment of all the Bleſſings of Govern<g ref="char:EOLhyphen"/>ment, and the Comforts of the Goſpel: And ſup<g ref="char:EOLhyphen"/>poſe all things in that Revolution and Hurry, ſhould not juſt agree with every mans Expectation, Fancy or Intereſt (as it is impoſſible it ſhould;) Is that a juſt Cauſe to forget the Mercy, and to ſet down and mutter Diſcontent? to murmur at what is done, and try to provoke Almighty God to break all in pieces again? Is this a good Reaſon to contemn the Deliverance, and with the perverſe <hi>Iſraelites,</hi> to be for making Captains to carry them back, through Blood and War, by Confuſion, Conſpiracies and Tumults, into the Bondage, out of which they late<g ref="char:EOLhyphen"/>ly cried ſo loud, <hi>Good Lord deliver us?</hi> The bare Stating of the Caſe ſeems to make the thing very plain. It is very probable that ſome of the Diſſatisfied among the <hi>Corinthians,</hi> might think they had ſome Cauſe to be Diſcontented; the Leading Heretick among them might (like the <hi>Spies</hi>) tell them, that the Eſtabliſhment they lookt for in the Church, was not like to be of that Advantage they expected; they muſt encounter the <hi>Pagan</hi> Fury, and the <hi>Jewiſh</hi> Zeal; And if they could make way through thoſe
+<pb n="11" facs="tcp:150246:8"/>
+Difficulties, yet the ſtrict Diſcipline they muſt ſubmit to would make that deſired State, an Uncomfortable one; and that therefore, they had as good ſettle back again, to <hi>Paganiſm</hi> or <hi>Judaiſm</hi> or as they were enclined. As they might repreſent things, the Diſ<g ref="char:EOLhyphen"/>contented and Unſtable among them might think they could juſtifie their Complaints, and that they had Cauſe upon theſe Accounts, to throw off the Bleſſed Deſign of their Biſhops and Paſtors: But ſays the Apoſtle <hi>Murmur not:</hi> The Eſtabliſhing of the Church of Chriſt among them, was ſo Bleſſed a thing, that to murmur at the Method, and rather than ſubmit to the Difficulties in the way to it, to fall back to Idolatry again, would be both irratio<g ref="char:EOLhyphen"/>nal and baſe, and no doubt extort Vengeance from God (as the <hi>Jews</hi> experienced) for ſo great an Of<g ref="char:EOLhyphen"/>fence, and Contempt of his Goodneſs.</p>
+            <p>Secondly, As to the next Caſe; Suppoſe ſome Extraordinary Perſon ſhould be ſtirred up, in a gene<g ref="char:EOLhyphen"/>rous Compaſſion or Zeal, to relieve any ſuch Di<g ref="char:EOLhyphen"/>ſtreſſed People, which had no way left in Humane Judgment, for an Eſcape out of their imminent Troubles and Fears, as <hi>Moſes</hi> was: And ſuppoſe, ſuch an One, ſhould in a Way, as it were Miracu<g ref="char:EOLhyphen"/>lous, accompliſh his honourable Undertakings, and in ſo ſurprizing a Manner, that the Hand of God may be viſibly perceived in it: And further, ſup<g ref="char:EOLhyphen"/>poſe that in a gratefull Senſe of ſuch generous Love, and in acknowledgment of the Deliverance, as well as through Neceſſity, ſuch an One thus recommen<g ref="char:EOLhyphen"/>ded by Heaven, ſhould be deſired to undertake the Government and Protection of them, and He (when there is no Body elſe to doe it) ſhould
+<pb n="12" facs="tcp:150246:9"/>
+undertake it: Is there any Cauſe for any to ſay, as ſome of the <hi>Jews</hi> did to <hi>Moſes</hi> and <hi>Aaron, Where<g ref="char:EOLhyphen"/>fore lift ye up your Selves above the Congregation of the Lord?</hi>
+               <note place="margin">Numb. 16.3.</note> When it is apparent, that nothing but the Hand and Power of God, can put any One into ſuch a Station, how little Reaſon is there to ſay, <hi>You take too much upon you.</hi>
+            </p>
+            <p>
+               <hi>Corah</hi> and his Companions were as ſtiff againſt <hi>Moſes,</hi> as if they would neither allow Heaven to ſet up a Ruler over them, nor give way to any Go<g ref="char:EOLhyphen"/>vernment, but what was according to their Scheme; though doubtleſs their Brethren thought it was as Reaſonable they ſhould be pleas'd; and eſpecially when they apparently concurred with the Will of God: But the Example of thoſe Men is not to be followed,<note place="margin">1 Cor. 10.5.</note> foraſmuch as, <hi>with them God was not well pleaſed,</hi> and <hi>they were overthrown in the Wil<g ref="char:EOLhyphen"/>derneſs:</hi> And that it ſeems was deſigned by God himſelf to be a convincing Argument, that none, in ſuch a Caſe, ought to pique againſt the Advance<g ref="char:EOLhyphen"/>ment or Conduct of ſuch Extraordinary Perſons, when He ſets them up, nor be offended that He is pleas'd to rule the World according to his own Will, and not theirs: but</p>
+            <p>Laſtly, The Children of <hi>Iſrael</hi> murmured that they met with ſome Difficulties, upon their Eſcape out of <hi>Egypt,</hi> in the way to the Holy Land: Of which, I ſhall obſerve here by the way, that they brought them upon themſelves, and particularly for Diſguſting their Deliverance, and the Advancement and Management of <hi>Moſes:</hi> For their Forty years Pilgrimage, and all the Hardſhips they met with in the Wilderneſs, were purely by way of Puniſhment,
+<pb n="13" facs="tcp:150246:9"/>
+and on purpoſe to conſume all that Stubborn Ge<g ref="char:EOLhyphen"/>neration, that had Murmured at their Deliverance, and piqu'd againſt their Saviour: But waving this, Suppoſe the caſe as Natural as we can; we cannot well conceive how great Revolutions can be brought about, without a conſiderable Ruffle of Affairs, (though ſometimes indeed we are convinced that nothing is impoſſible with God:) It is no wonder the Wind that wafts the Ship to Harbour ſhould diſcompoſe the Waters, and raiſe ſome Billows to beat upon it: But then that Paſſenger is too pee<g ref="char:EOLhyphen"/>viſh, that complains that the Working of the Veſ<g ref="char:EOLhyphen"/>ſel makes him a little more uneaſie than he is uſed to be, and the Mariner that frets at the Wind for wearing his Sails, is too baſely Selfiſh; and he that rather than comply with theſe Unavoidable Inconveniences, is willing to return or ſink, ſeems abundantly worthy to be gratified.</p>
+            <p>Suppoſe a Man faſt aſleep in a ſinking Ship, ſhould by a kind Friend be ſnatch'd out of his Cabbin, and ſet upon a Plank to ſave his Life; how very un<g ref="char:EOLhyphen"/>reaſonable would it be, that he ſhould be Angry that he was diſturbed in his Reſt, and muſt be at the pains to ſwimm to Shore. Had it not been a very abſurd, as well as an unworthy thing, if when the Angels took <hi>Lot,</hi> and his Family by the hand, and lead them out of the reach of <hi>Sodom's</hi> Fire and Brimſtone, they ſhould have murmured at the trou<g ref="char:EOLhyphen"/>ble of Walking two or three Hours in the night, to <hi>Zoar</hi> to ſave their Lives? And if it were ſuch a diſcontented humour (as it is very like it was) that made that woman,<note place="margin">Gen. 19.26.</note> that was turned into <hi>a pillar of Salt,</hi> look back, and was the occaſion of that Pu<g ref="char:EOLhyphen"/>niſhment,
+<pb n="14" facs="tcp:150246:10"/>
+Then,<note place="margin">Luke 17.32.</note> as our Lord ſaith, <hi>Remember Lot's Wife.</hi>
+            </p>
+            <p n="3">III. This brings me to the Third thing propoun<g ref="char:EOLhyphen"/>ded, which is to ſhew, how likely ſuch Practiſes as are here forbidden, are to produce ſuch an Effect as is pointed at.</p>
+            <p>And to this end I ſhall onely hint the ill Nature of the Sin, as it is here Circumſtantiated, and the ill Conſequences of it amongſt thoſe our Text and Matter relates to; and I think this will be enough, if we do but ſuppoſe that Heaven hath the ſame Reſentment of Things now, it had of old: Onely this by the way, may be objected, that the Things that now come to paſs in the World, are not ſo apparently the immediate Operation of Gods Hand, as thoſe that the Children of <hi>Iſrael</hi> were concern'd in, in the Wilderneſs; nor ſuch marks of Favour or Diſpleaſure, but onely Things that fall out in the Common way of Providence.</p>
+            <p>To which it may be anſwered; 'tis true, God did never ſo viſibly appear in the Behalf of any Peo<g ref="char:EOLhyphen"/>ple in the World, as he did for them, ſo that to diſguſt what he did was doubtleſs the more Provo<g ref="char:EOLhyphen"/>king: And what if ſome among them had been plea<g ref="char:EOLhyphen"/>ſed to ſay, that all that Great Revolution, was one<g ref="char:EOLhyphen"/>ly ſome Excentrick Motion of the Wheel of For<g ref="char:EOLhyphen"/>tune, and offer Arguments, that all was contrived and wrought by that Deſigning and Ambitious Man <hi>Moſes,</hi> who would never reſt till he had made him<g ref="char:EOLhyphen"/>ſelf <hi>a Prince over them;</hi>
+               <note place="margin">Numb. 16.13.</note> Yet this was not likely to leſſen the Provocation, or evade the Puniſhment. And as to other People, by what Outward Means ſoever, or by whatſoever Management or Intrigue,
+<pb n="15" facs="tcp:150246:10"/>
+things may ſeem to be ordered and accompliſhed, yet it muſt be ſuppoſed that God rules the World ſtill; and if we have not Faith enough to believe, that he takes the ſame Care of his Church now that he did of old, if there be evident Impreſſions of a Di<g ref="char:EOLhyphen"/>vine Care and Goodneſs upon what comes to paſs, the Murmuring at it upon by Accounts, muſt needs be of as ill Conſequence now as ever, and eſpecially in the Caſes under our preſent Conſideration. And to make this the more evident, I will briefly run o<g ref="char:EOLhyphen"/>ver the three Heads of Murmuring the Text re<g ref="char:EOLhyphen"/>fers to.</p>
+            <p>The Firſt was at Deliverance, when ſome unavoi<g ref="char:EOLhyphen"/>dable Troubles and Difficulties were ſuggeſted: And if the nature of any one Offence, may be ſuppoſed to have a greater Influence upon the Diſpleaſure of God than others, this ſeems to be of that ſort: For to Murmur at Gods Hand, whatſoever it doth, does not become poor Worms, that are liable to all his Wrath; though things really grievous and ſevere befall Men (which was poor <hi>Job's</hi> Caſe) yet there ſeems to be ſome Danger in Murmuring at them; and when that unfortunate Mans Wife,<note place="margin">Job 2.9, 10.</note> bid him <hi>curſe God and die,</hi> I ſuppoſe it was, becauſe ſhe thought it an effectual means to that end; but his Anſwer was much more becoming, <hi>What!</hi> ſays he, <hi>ſhall we receive Good at the Hand of God, and not evil? thou ſpeakeſt like one of the Fooliſh Women:</hi> This may well be ſuppoſed, when People labour under real Grievances; but to groan under the Burden of Deliverance, ſeems to carry all the Marks of ill Na<g ref="char:EOLhyphen"/>ture in it, and to be a very effectual Method of Courting Confuſion; and if the Humour have but
+<pb n="16" facs="tcp:150246:11"/>
+leave to work, it will need no other Hand but its own, to procure the greateſt Miſchief; What can we think of the Children of <hi>Iſrael,</hi> that would needs have been for <hi>Egypt</hi> again? Had they made themſelves Captains as they talk't of, to conduct them back again, whatſoever kind Thoughts they might on a ſudden have had of their enraged and Implacable Enemies, in all likelyhood, they would ſoon have been cut in pieces, or at leaſt they and their Children muſt have been Bondſlaves for ever: And certainly it would have puzzled the moſt Critical Spy of them all, to have made his own private Fortune, whatever had become of the Publick, in that Horrid Revolution they were ſo very Cove<g ref="char:EOLhyphen"/>tous of.</p>
+            <p>God Almighty did indeed prevent that Fatal Pro<g ref="char:EOLhyphen"/>ject the Murmurers were upon, for the Glory of his own <hi>Great Name,</hi> and conſequently the Miſ<g ref="char:EOLhyphen"/>chief that would have enſued: But yet he had ſuch a juſt and high Reſentment of their Sin and Folly, that he would not paſs it by; and as if his Anger had known no Bounds (the Provocation was ſo great) not onely the Murmurers themſelves, but <hi>the Whole Congregation</hi> ſmarted for it; For, for fourty Years together they were kept in an unſet<g ref="char:EOLhyphen"/>tled State, in a ruefull Deſert, where that whole Ge<g ref="char:EOLhyphen"/>neration was deſtroyed, there being not a Man of them that was above Twenty years old at the time of the Provocation, ſave onely <hi>Caleb</hi> and <hi>Joſhua,</hi> but what was Deſtroyed, and never lived to ſee the Promiſed Land, as may be fully ſeen, <hi>Numb.</hi> 14. as alſo with what Heat and Indignation, God de<g ref="char:EOLhyphen"/>nounced that Sentence upon them.</p>
+            <p>
+               <pb n="17" facs="tcp:150246:11"/>Secondly, The next Murmuring our Text refers to, is, Againſt thoſe Rulers, (and their Conduct) which God is pleaſed by his Grace and ſpecial Appoint<g ref="char:EOLhyphen"/>ment to ſet up: And if we do but ſuppoſe this, That is is by God <hi>that Kings Reign,</hi>
+               <note place="margin">Pſal. 75.7.</note> that it is he that <hi>pulleth down One and ſetteth up Another,</hi> and that <hi>Rulers are the Miniſters of God;</hi>
+               <note place="margin">Rom. 13.4.</note> To pique againſt Them, is but to quarrel with Him that appoints Them; and therefore <hi>Moſes</hi> asks the queſtion, <hi>What is Aaron that ye Murmur againſt him?</hi>
+               <note place="margin">Numb. 16.11.</note> he was but the Mini<g ref="char:EOLhyphen"/>ſter of God, as <hi>Moſes</hi> was, and their Pique againſt them, was interpreted to have a further Reach, and to be a diſguſt at God, who had appointed Them: And when it comes to this that Men can ſay to thoſe that are Commiſſioned of God, <hi>Ye take too much up<g ref="char:EOLhyphen"/>on You,</hi> the Affront ſeems too Great to be paſſed by, without ſome Remarkable notice of Indignation.</p>
+            <p>And indeed this ſad Effect this Sin had among the Children of <hi>Iſrael;</hi>
+               <note place="margin">Numb. 16.20, 21.</note> for ſays <hi>God to Moſes and Aa<g ref="char:EOLhyphen"/>ron, Separate your ſelves from among this Congrega<g ref="char:EOLhyphen"/>tion, that I may conſume them in a moment.</hi> It is true indeed, this general Sentence, upon their Sup<g ref="char:EOLhyphen"/>plication, was Reverſed. But yet the Heads of their Faction were deſtroyed by a moſt Remarkable Judg<g ref="char:EOLhyphen"/>ment;<note place="margin">Verſe 23.</note> for <hi>the Earth opened her Mouth and ſwallowed them up; they and all that appertained to them, went down alive into the Pit, and the Earth cloſed upon them, and they periſhed from among the Congregation.</hi> This was not all,<note place="margin">Verſe 35.</note> but <hi>Fire came out from the Lord and conſumed Two hundred and fifty more;</hi> and be<g ref="char:EOLhyphen"/>ſides this, God ſent <hi>the Plague among them,</hi> which as it were in an inſtant ſwept away <hi>Fourteen thou<g ref="char:EOLhyphen"/>ſand and ſeven hundred</hi> more. And this was the ſad Conſequence of their Murmurings againſt their De<g ref="char:EOLhyphen"/>liverers,
+<pb n="16" facs="tcp:150246:12"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="17" facs="tcp:150246:12"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="18" facs="tcp:150246:13"/>
+whom God had ſent and ſet over them.</p>
+            <p>Thirdly, the laſt Murmuring our Text refers to, is, At unavoidable Troubles upon Deliverance from far greater, and in the way to great Happineſs; of which I ſhall onely ſay, that it is very ſtrange that any People ſhould be come to ſuch a paſs, that they cannot endure to bear a little, eſpecially in ſuch Ca<g ref="char:EOLhyphen"/>ſes; and it is very hard to know what Terms ſuch would exact of Heaven to be Content. If we are not willing to ſet the Good againſt the Evil, or at leaſt to take one with the other, as the ſtate of this World requires, yet we have great Reaſon to place our Sufferings to the Account of our Sins, ſo far forth as not to Murmur at them, leſt it prove a means to double our Sorrows; for there ſeems to be ſo much Perverſeneſs and Folly, ſuch Provocation and Affront to the Divine Goodneſs, in murmuring at the Neceſſary Methods of Accompliſhing any of the Deſigns of his Mercy, that we cannot readily try a more fatal Experiment to incenſe his Wrath: And this we are aſſured of that for ſuch unworthy Reſentments of the unavoidable Inconveniencies they met with in the way to <hi>Canaan,</hi> after they were e<g ref="char:EOLhyphen"/>ſcaped out of <hi>Egypt,</hi> God was much offended at his <hi>own People,</hi> and they found it of very ill Conſe<g ref="char:EOLhyphen"/>quence; For upon this very Account, <hi>the Lord ſent fiery Serpents among them,</hi>
+               <note place="margin">Numb. 21.6.</note> 
+               <hi>and they bit the People, and much People of Iſrael died.</hi>
+            </p>
+            <p>Having thus ſhewn the Unreaſonableneſs of what the Apoſtle warns us againſt in the Text, as alſo the ill Nature and moſt likely Conſequences thereof;</p>
+            <p n="4">IV. The laſt thing which remains is to make ſome
+<pb n="19" facs="tcp:150246:13"/>
+neceſſary Improvement of the Matter. And that which in General I would make thereof is (if I might) to prevail with every One to ſet down un<g ref="char:EOLhyphen"/>der his own Vine, and bring forth and enjoy <hi>the Peaceable Fruits of Righteouſneſs,</hi> Heaven having given us ſuch an Advantage in this Caſe, over the greateſt Part of the World.</p>
+            <p>There are ſurely a great many Countries would eſteem themſelves very Happy, if they were in our Condition, and would think the reſt of the World would account them the moſt unworthy People and unwiſe, becauſe they have no Forreign Enemies within their own Bowels, to be quarrelling at Gods Diſpenſations, and piquing againſt their Governours and one another, whileſt they might enjoy all the Bleſſings of Peace, and all the Advantages of the beſt Religion and Government in the World.</p>
+            <p>Surely it is ſtrange that any ſhould follow their unreaſonable Diſguſts ſo far, as at once to reproach and forfeit their Religion, their Reaſon and Peace too! and not onely their own, but the Peace of their Country, and what is more, that of the Church of Chriſt; and for the ſake of their own Reſent<g ref="char:EOLhyphen"/>ments to expoſe all to Confuſion, and the Ven<g ref="char:EOLhyphen"/>geance of the Almighty: For certainly, whatſoever we may wiſh or hope for, or whatever Ends others may pretend or ſeem to have in their Active Zeal, ſuch perverſe unwiſe Practiſes carry in them all the Preſages of Miſchief and Ruine: And though this be what ſome covet (as we may verily believe without any Breach of Charity) yet what Satis<g ref="char:EOLhyphen"/>faction can it be to any, to ſet the World on Fire about their own Ears? or to be blowing the Coals of Sedition and Diſcontent, till it break out into a fire
+<pb n="20" facs="tcp:150246:14"/>
+not to be quenched, ſo long as there is any thing left for it to devour? What ſtrange vizard hath Fate put upon Quietneſs and Peace, that all their Charms can't prevail with Men to embrace and enjoy them when they are put into their Arms? Or rather what unlucky Powers govern this Age, that the moſt de<g ref="char:EOLhyphen"/>ſireable Bleſſing is become a Nuiſance? Liberty and Property uſe to be great Darlings, and a quiet and ſecure Enjoyment of True Religion is deſerved<g ref="char:EOLhyphen"/>ly eſteemed the Greateſt Bleſſing to any People, but now that Confuſion ſhould be preferred before them all, is very Unaccountable and Ominous.</p>
+            <p>In Spiritual Concerns indeed this Folly, this brain<g ref="char:EOLhyphen"/>leſs Madneſs is frequent; Men can and doe diſdain Vertue and Purity, whileſt they embrace Abominati<g ref="char:EOLhyphen"/>on and Filthineſs; they can contemn Immortality and Glory, paſſionately chooſing Death and Hell, as if they were in love with Fire and Brimſtone, and the Torments of the bottomleſs Pit: But that Men ſhould be no <hi>Wiſer in their Generation,</hi>
+               <note place="margin">Luke 16.8.</note> and have no better Senſe of their Secular Advantages, argues intolerable Deluſion, and too great a Re<g ref="char:EOLhyphen"/>proach to be wiped off: If we cannot be content to be Happy, nor know how to reſt, till we have chan<g ref="char:EOLhyphen"/>ged our Fortune, the World will deride us, our Ene<g ref="char:EOLhyphen"/>mies will triumph, and we our ſelves will ſadly repent it, and ſee, too late, that we were beſotted to our own Deſtruction.</p>
+            <p>But there are two or three Particulars the Text en<g ref="char:EOLhyphen"/>joyns me to recommend, it being very uſual in Holy Scripture for Negative Precepts to include and intend their contrary Poſitive Duties. And</p>
+            <p n="1">I. Firſt, That ye have Honourable Thoughts of
+<pb n="21" facs="tcp:150246:14"/>
+the Goodneſs of God, and believe that what he hath done for us, was well intended: And doubt<g ref="char:EOLhyphen"/>leſs we may appeal to all the World, whether it be not very reaſonable we ſhould, nay if it be not very unworthy if we ſhould not: We may be ſure that God is Wiſe and Good, and becauſe he is our God, we ought to have honourable Thoughts of what he doth in reference to us, and eſpecially when his Pro<g ref="char:EOLhyphen"/>vidences are marked, with the moſt viſible Tokens of his Love and Care; and though in the doing of it he choſe rather to follow the counſel of his own Will, than to pleaſe one Party of Men rather than another; yet thoſe that are Modeſt will conclude that God is Wiſer and Better than they, and thoſe that are Ingenuous will be Thankfull.</p>
+            <p>And though ſome look ſo far before them as to be uneaſie at their foreſight, (without a due Truſt in God,) yet for preſent Mercies we ought to give him Praiſe: It was great Grace in the Maſter of <hi>the Vineyard,</hi>
+               <note place="margin">Luke 13.6.</note> to ſpare his fruitleſs <hi>Fig-tree</hi> one Year more, and greater ſtill that it ſhould be dreſſed and manured, and thoſe that foreſaw its downfall at the Years end, inſtead of reflecting either upon the Own<g ref="char:EOLhyphen"/>er or <hi>Dreſſer of the Vineyard,</hi> ought to have admi<g ref="char:EOLhyphen"/>red the Patience and Bounty that was expreſſed to it, The truth is, reſpite for a ſeaſon from deſerved Ruin, however Heaven brings it about, ought to be thought well of; And if neither the preſent Enjoyment of Good, nor the proſpect of Evil a coming, will reduce us to temper, nor procure a due regard to our Duty, he that runs may read our Fate.</p>
+            <p n="2">II. Secondly, I am to recommend to you a Sub<g ref="char:EOLhyphen"/>miſſion to Government, and particularly <hi>to the Powers
+<pb n="22" facs="tcp:150246:15"/>
+that be,</hi> becauſe they are <hi>of God:</hi> And not onely ſo, but to ſeek the Peace of the Land, and every one in his Place to endeavour to aſſiſt that Eſtabliſh<g ref="char:EOLhyphen"/>ment, wherein we hope Heaven deſigns to make us yet happy. Obedience to Rulers doth uſe to be ac<g ref="char:EOLhyphen"/>counted a diſtinguiſhing Mark of the Better ſort of Chriſtians,<note place="margin">Rom. 13.2.</note> and it hath been ſaid of old, <hi>that thoſe that reſiſt, ſhall receive to themſelves Damnation; That we muſt not revile the Gods,</hi>
+               <note place="margin">Exod. 22.28.</note> 
+               <hi>nor curſe the Ruler of</hi> our <hi>People;</hi>
+               <note place="margin">1 Pet. 2.17. Prov. 24.21.</note> that we muſt <hi>fear God and honour the King, and not meddle with thoſe that are given to Change.</hi> All which carry ſuch Authority in them, as Good Men will reverence and obſerve, and not ſuffer any ill Reſentments to hinder the Diſcharge of the Duty they are ſo ſtrongly obliged to; And though the Obſervance of our Duty in this caſe, as well as others, may be defeated of its natural Re<g ref="char:EOLhyphen"/>ward in this Life, yet we are ſure, that when we have done living here, it will be our Comfort.</p>
+            <p>But this is not all we are concerned in, in this Caſe; but that alſo every one in his Place ſeek the Peace of the Land, and endeavour to aſſiſt the Eſtabliſh<g ref="char:EOLhyphen"/>ment, that through the Mercy of God, we now en<g ref="char:EOLhyphen"/>joy: And there is this Reaſon for it, <hi>viz.</hi> That we know what our preſent Condition is, and that it promiſeth well, if our ill Management and our Sins do not obſtruct it; but what Condition another Re<g ref="char:EOLhyphen"/>volution may put us into we cannot tell; but have great Reaſon to fear it will be a very ſad one.</p>
+            <p>And in the firſt place, Thoſe that bear a ſhare in the Government, and eſpecially ſuch as are in the Higheſt Orbs, ought not onely to be true to it, and (with all Reverence be it ſpoken) juſt to the Offices they fill, but alſo by their active Motions to
+<pb n="23" facs="tcp:150246:15"/>
+ſet the leſſer Wheels a going, that an Univerſal life and vigour may run through and be ſeen in all the parts of the Common-wealth. It is indeed a moſt unhappy and no leſs wicked thing, if thoſe in emi<g ref="char:EOLhyphen"/>nent Poſts eſpecially, keep their places only for the Profit of them; but much worſe, if they do it to make an Advantage of the Government, and deſtroy it together. Doubtleſs ſuch have ſad cauſe to re<g ref="char:EOLhyphen"/>member their diſmal Accounts, whileſt the Unfor<g ref="char:EOLhyphen"/>tunate Nation laments its hard Fate, praying Heaven to deliver it from ſuch Plagues. If the Life of any Politick Body be onely perceived by that ſacred Hunger in its Miniſters, it is juſt ſuch another fatal Symptom, as that of exceſſive Greedineſs in ſome ſick People a little before their Death; but then this ought to be remembred, that when the flouri<g ref="char:EOLhyphen"/>ſhing Ivy, by its cloſe embraces hath ſuck'd away the life of the ſturdy Oak, when that falls, it can<g ref="char:EOLhyphen"/>not ſtand, but becomes a prey to the devouring Fire: And as I am this day the Orator of God (though a moſt Unworthy one he knows?) ſo I will preſume alſo in behalf of the Land, to put up one Petition with all Veneration to our Terreſtrial Gods, and that is, That they would remember,<note place="margin">Pſal. 82.7.</note> that they <hi>ſhall die like Men,</hi> and ſtand before that Great Judge, <hi>with whom there is no Reſpect of Perſons.</hi>
+               <note place="margin">2 Chr. 19.7.</note> And as for thoſe in inferior Stations, I heartily pray, That <hi>the Fear of God</hi> may ſo reſt upon their Minds, that they be found Faithfull, and may give up their Accounts with joy at the laſt and great Day.</p>
+            <p>And here it may not be amiſs to conſider a little, wherein eſpecially the Endeavours of Men are moſt likely to be Advantageous and Succeſsfull, for the Eſtabliſhment and Peace of any People: And with<g ref="char:EOLhyphen"/>out
+<pb n="24" facs="tcp:150246:16"/>
+being tedious in proving it, I will preſume to ſay, that the Protection of Heaven is the beſt Defence, and Religion its beſt Eſtabliſhment; and therefore to ſecure theſe is the greateſt Policy and the wiſeſt Pra<g ref="char:EOLhyphen"/>ctice. That Juſtice and Judgment be executed; that Atheiſm, Blaſphemy, Prophaneſs and Perjury be diſ<g ref="char:EOLhyphen"/>couraged and puniſhed out of the World; that Op<g ref="char:EOLhyphen"/>preſſion, Violence and Murder receive their juſt Re<g ref="char:EOLhyphen"/>ward; that the Fear and Worſhip of God be pro<g ref="char:EOLhyphen"/>moted, and that Vertue, true Religion and Good Men be cheriſhed, encouraged and rewarded, is the beſt part of Politicks, as it is the moſt important Concern of Government: for this, as it is the moſt natural and rational Security of Society, ſo it will alſo inte<g ref="char:EOLhyphen"/>reſt us in the care of Heaven;<note place="margin">Rom. 8.31.</note> and <hi>if God be for us, who can be againſt us?</hi>
+            </p>
+            <p>The moſt active and cautious Management, the moſt critical Contrivance and Execution of Laws, for the Security of our Intereſts and Conveniencies, are but the trying of ſo many Experiments, which we cannot tell, whether they will doe or no: Many times we ſee the wiſeſt Counſels defeated, the moſt rational Deſigns fruſtrated, the beſt Contrived Laws doing no good, and that potent Armies can't ſo much as fight, much leſs be Victorious. It is not very un<g ref="char:EOLhyphen"/>worthy our Obſervation, that notwithſtanding that neceſſary and improved Law was moſt induſtriouſly ex<g ref="char:EOLhyphen"/>ecuted for mending the Roads,<note place="margin">A great Snow.</note> yet within a very little time, they became utterly Unpaſſable; and that not<g ref="char:EOLhyphen"/>withſtanding the moſt prudent Management of Af<g ref="char:EOLhyphen"/>fairs, and the vaſt Expence of Treaſure and Blood, we are yet ſubject to the Inſults of our Enemies, both at home and abroad; by which and many other Inſtances,<note place="margin">Eccleſ. 9.11.</note> we may be convinced, <hi>that the Race is not
+<pb n="25" facs="tcp:150246:16"/>
+to the Swift, nor the Battle to the Strong;</hi> but that the great Dependance is upon him that ordereth all things, according to the Counſel of his own Will; And that indeed <hi>our help ſtandeth in the Name of the Lord who made Heaven and Earth.</hi>
+               <note place="margin">Pſal. 124.7.</note> And till we can compleat the Atheiſt's deſign, and uſher God Almighty out of the World, we muſt by no means leave Him and his Glory out of our care and con<g ref="char:EOLhyphen"/>cern, unleſs we think we can ſtand upon our own Legs, or elſe are willing to ſink into the utmoſt Ruine and Confuſion. Gods Laws therefore muſt be ob<g ref="char:EOLhyphen"/>ſerved, his Commandments regarded, and his Will done; his Holy Name muſt be rever'd, his Majeſty adored, and his Mercy and Favour implored; his Worſhip muſt be duly and devoutly celebrated, his Sabbaths ſanctified and his Goodneſs acknowledged: This is the laying of a good Foundation, and <hi>happy is the People that is in ſuch a Caſe;</hi> becauſe, <hi>bleſſed is the People who have the Lord for their God.</hi>
+            </p>
+            <p>And becauſe this is the Product of true Religion, that is it that muſt be advanced and encouraged a<g ref="char:EOLhyphen"/>bove all things, by the unanimous and joynt Endea<g ref="char:EOLhyphen"/>vours of all, both Governours and Subjects; and not onely ſo, but moſt zealouſly practiſed by every one; For indeed ſo long as our Religion and our Lives do ſo ſtrangely contradict and reproach one another, and our Practices are a continual Affront to Heaven, every thing elſe will be but as Pumping in a Ship without ſtopping the Leak. There is a certain Ma<g ref="char:EOLhyphen"/>gic in ſin and wickedneſs that baffles all Arts, that countermines all Policy, that undermines Kingdoms, ruins States, overturns Empires, and above all, hath a moſt direct and fatal Influence upon Chriſtian So<g ref="char:EOLhyphen"/>cieties: And that Deluge of Vice which hath al<g ref="char:EOLhyphen"/>moſt
+<pb n="26" facs="tcp:150246:17"/>
+ruined us already, in ſpight of all the Mercies of God, and hath weakned us more than all the Ex<g ref="char:EOLhyphen"/>pence of Men and Money we have been at, will cer<g ref="char:EOLhyphen"/>tainly not fail, if we ſtill continue it, to accompliſh his Wrath upon us. Our crying ſins, which we are not yet ſo wiſe as to part with, methinks ſound like thoſe Woes that the Man ſo paſſionately uttered day and night in <hi>Jeruſalem,</hi> a little before its Deſtructi<g ref="char:EOLhyphen"/>on, and ſpeak the ſame thing, that the flaming Sword meant that hung over the Temple; and therefore to ſtem the tide of Debauchery, which runs ſo very high, and to ſtop the raging deluge of Vice, is the nicking Concern of every one: And whoſoever hear<g ref="char:EOLhyphen"/>tily engage in this Work, whether they be Magi<g ref="char:EOLhyphen"/>ſtrates, Miniſters or People, the Bleſſing of the Righ<g ref="char:EOLhyphen"/>teous reſt upon them, and we <hi>wiſh</hi> them <hi>Good luck in the Name of the Lord.</hi>
+            </p>
+            <p n="3">III. But to conclude, there is yet a Third thing the Text enjoyns, and which indeed the ſtate of this World exacts of all that would be eaſie in it, and Prudence as well as the bleſſed Counſel of Jeſus Chriſt recommends as a great piece of Wiſdom as well as Duty; and that is, to be Patient under una<g ref="char:EOLhyphen"/>voidable Troubles, and not quarrel and fret at what we cannot help, till we leap out of the Pan into the Fire. It had been indeed more Glory to have ſuffered Fire and Faggot, and Confiſcation of Goods, for the ſake of our Religion, than to bleed a little in our Purſes, and ſuffer the Mortification of ſome of our Exceſſes; but we may juſtly fear, that there are very few ſo truly Chriſtian and Magnanimous, as to have undergone ſuch Tryals, and have gained that Glory, that are offended at much more tolerable Afflictions
+<pb n="27" facs="tcp:150246:17"/>
+now. Altho' therefore we cannot grow rich ſo faſt as we would, nor ſpend ſo much upon Luxury and Riot as we uſe to do, let us be Content; and if Hea<g ref="char:EOLhyphen"/>ven could find out any, or make the preſent an ef<g ref="char:EOLhyphen"/>fectual means to ſubſtract the fuel of our Luſts, and oblige us to pare off our Extravagancies and Intem<g ref="char:EOLhyphen"/>perance, it would be happy Providence, and would do us more good than all the Money in our Purſes. But</p>
+            <p>Finally, Since very few are like to be ſo eaſie in the World as they would be, let us all remember, that the world is really a Wilderneſs, and was never deſigned for a Paradiſe; that it is great folly to ſtand wreſtling and contending with every thing that juſtles us, but that he is the wiſeſt Man that makes the beſt of his way through it, toward the Promiſed Land. The harder things ſet upon us here, let us be the more in love with the Heavenly Manſions, and the more ſollicitous to obtain a Lot amongſt the Saints, that we may once be Happy;<note place="margin">Heb. 12.3.</note> 
+               <hi>Let us run with Pati<g ref="char:EOLhyphen"/>ence the Race that is ſet before us, looking unto Jeſus the Author and Finiſher of our Faith; who for the joy that was ſet before him, endured the Croſs, deſpi<g ref="char:EOLhyphen"/>ſing the Shame, and is now ſet down at the right Hand of the Throne of God.</hi> With whom I pray that we may for ever dwell; And to whom with the Father and the Holy Ghoſt be all Glory, Honour and Praiſe for evermore. <hi>Amen.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
